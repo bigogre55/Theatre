@@ -1,2 +1,2 @@
 # Theatre
-A website builder to for watching movies with your friends
+A website builder for watching movies with your friends
