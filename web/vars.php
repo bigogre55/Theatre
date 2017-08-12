@@ -5,7 +5,7 @@
 //  the files are in /var/www/videos
 //  just put /videos
 
-$homedir = "/movies";
+$homedir = "/videos";
 
 //Set the hard location of scanning
 //  if the files are stored some where other than the
@@ -13,7 +13,7 @@ $homedir = "/movies";
 //  otherwise enter the full path to the web directory.
 // /var/www/videos
 
-$sdir = "/srv/films/new";
+$sdir = "/srv/films";
 
 
 //Don't change these options
@@ -28,9 +28,6 @@ if ($_GET['up']) {
   $mdir = substr($sub, 0, $remove);
   $sd = 1;
   $_SESSION['dir'] = $mdir;
-  //echo "<p>vars up echo: $sub</p>";
-  //echo "<p>vars up echo: $remove</p>";
-  //echo "<p>vars up echo: $tdir</p>";
 } elseif ($_GET['dir']) {
   $sd = $_SESSION['dir'];
   $mdir = $sd . "/" . $_GET['dir'];
@@ -40,5 +37,4 @@ if ($_GET['up']) {
   $mdir = $_SESSION['dir'];
 }
 
-//echo "$mdir";
 ?>
