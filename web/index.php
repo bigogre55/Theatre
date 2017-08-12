@@ -10,7 +10,7 @@ include('vars.php');
 <link rel="stylesheet" type="text/css" href="../jake.css">
 </head>
 <body>
-<t1><a href=clear.php">Home</a></t1>
+<t1><a href=clear.php>Home</a></t1>
 <p>this portion of the site is still in testing.</p>
 <p>Please be aware that you will find bugs and encounter errors.</p>
 <p>you can always start over by clicking the link above</p>
