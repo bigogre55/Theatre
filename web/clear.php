@@ -6,8 +6,7 @@ session_write_close();
 setcookie(session_name(),'',0,'/');
 session_regenerate_id(true);
 unset($mdir, $tdir, $homedir);
-//$host = "movies.jaketheogre.com";
-//$url = "/git_test/clear.php";
+
 $host = $_SERVER['HTTP_HOST'];
 $url = $_SERVER['REQUEST_URI'];
 
