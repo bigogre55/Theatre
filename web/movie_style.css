@@ -1,0 +1,21 @@
+table,th,td {
+        border: 2px solid black;
+}
+t1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20pt;
+}
+body {
+        background-color: #aabbcc;
+}
+.scroll {
+        margin-left: auto;
+        margin-right : auto;
+        height: 600px;
+        width: 600px;
+        overflow: auto;
+}
+.video {
+        margin-left: auto;
+        margin-right: auto;
+}
