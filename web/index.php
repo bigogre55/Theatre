@@ -6,8 +6,7 @@ require_once("session_start.php");
 include('vars.php');
 ?>
 <title>Theater</title>
-<link rel="stylesheet" type="text/css" href="movie_style.css">
-<link rel="stylesheet" type="text/css" href="../jake.css">
+<link rel="stylesheet" type="text/css" href="Theatre.css">
 </head>
 <body>
 <t1><a href=clear.php>Home</a></t1>
