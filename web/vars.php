@@ -35,6 +35,7 @@ if ($_GET['up']) {
   $sd = 1;
 } else {
   $mdir = $_SESSION['dir'];
+  $sd = 1;
 }
 
 ?>
