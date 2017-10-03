@@ -4,8 +4,17 @@
 <?php
 require_once("session_start.php");
 include('vars.php');
+
+if (!$title) {
+  if ($_GET['mov']) {
+  $moviefile = $_GET['mov'];
+  $title = substr($moviefile,0,-4);
+  } else {
+  $title = "Theater";
+  }
+}
 ?>
-<title>Theater</title>
+<title><?php echo $title;?></title>
 <link rel="stylesheet" type="text/css" href="Theatre.css">
 </head>
 <body>
